@@ -47,25 +47,7 @@ python proxy_project/client/main.py -c client_config.json
 python proxy_project/client/main.py -c client_config.json --cli
 ```
 
-## 文件结构
 
-```
-proxy_project/
-├── client/                  # 客户端代码
-│   ├── encryption/          # 加密模块
-│   ├── gui/                 # 图形界面
-│   ├── utils/               # 工具类
-│   ├── local.py             # 本地代理实现
-│   └── main.py              # 客户端入口
-├── server/                  # 服务器端代码
-│   ├── encryption/          # 加密模块
-│   ├── monitor/             # 监控模块
-│   ├── utils/               # 工具类
-│   ├── encrypted_server.py  # 加密服务器实现
-│   └── main.py              # 服务器入口
-├── config_template.json     # 配置文件模板
-└── README.md                # 项目文档
-```
 
 ## 配置选项
 
